@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header_nav">
+            <div class="container">
+                <a href="#" class="header_logo">RSG SUPPORT</a>
+                <ul class="header_list">
+                    <li><a href="#service" class="header_link">УСЛУГИ</a></li>
+                    <li><a href="#about" class="header_link">О КОМПАНИИ</a></li>
+                    <li><a href="#contacts" class="header_link">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="transportation">
+            <img src="img/transportation.jpeg" alt="" class="transportation_bg">
+            <div class="transportation_content">
+                <h2 class="tr_content-title">ЛОГИСТИКА и экспедирование грузов</h2>
+                <p class="tr_content-text">Быстрые, экономические, надежные грузовые перевозки по всему миру</p>
+            </div>
+        </section>
+        <section class="services" id="service">
+            <div class="container">
+                <div class="services_content">
+                    <h2 class="services_title">Услуги</h2>
+                    <div class="services_items">
+                        <div class="services_item">
+                            <h3 class="services_item-title">Авиаперевозки</h3>
+                            <p class="services_item-text">Наш сервис авиаперевозок товаров предлагает эффективное и
+                                надежное перемещение грузов по всему миру. Мы обеспечиваем быструю доставку, точное
+                                следование расписанию и высокий уровень безопасности. </p>
+                            <img src="img/plane.jpg" alt="" class="item_img">
+                        </div>
+                        <div class="services_item">
+                            <h3 class="services_item-title">Автомобильные перевозки</h3>
+                            <p class="services_item-text">Железнодорожные перевозки – самый традиционный способ доставки
+                                грузов. Однако «традиционное» здесь не равно «забытому». Железнодорожные перевозки
+                                по-прежнему пользуются большим спросом.</p>
+                            <img src="img/truck.jpg" alt="" class="item_img">
+                        </div>
+                        <div class="services_item" class="item_img">
+                            <h3 class="services_item-title">Морские перевозки</h3>
+                            <p class="services_item-text">Наша команда
+                                профессионалов обеспечивает высокую скорость доставки и заботится о каждой детали вашей
+                                отправки - от упаковки и загрузки до разгрузки и доставки на место назначения.</p>
+                            <img src="img/lodka.jpg" alt="" class="item_img">
+                        </div>
+                        <div class="services_item">
+                            <h3 class="services_item-title">Железно-дорожные перевозки</h3>
+                            <p class="services_item-text">
+                                RSG SUPPORT - является надежным партнером в области железнодорожных перевозок и мы
+                                предлагаем вам
+                                эффективные и безопасные услуги по перемещению грузов по всей территории планеты.
+                            </p>
+                            <img src="img/train.jpg" alt="" class="item_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about_content">
+                    <div class="about_content-texts">
+                        <h2 class="about_title">О компании</h2>
+                        <p class="about_text">Наша команда опытных специалистов обеспечит Вам эффективное и качественное
+                            обслуживание на каждом этапе работы. Мы также предоставляем очень доступные
+                            транспортно-экспедиторские услуги для перевозки любых ваших товаров по всему миру. Мы
+                            поддерживаем наших клиентов всеми необходимыми мерами для обеспечения полной поддержки в
+                            отслеживании движения грузовых автомобилей по Соединенным Штатам Америки. Также наша
+                            собственная
+                            команда специалистов предлагает услуги по ведению бортового журнала владельцам грузовых
+                            автомобилей и транспортным компаниям. Мы предлагаем индивидуальные решения для каждого
+                            клиента и
+                            обеспечиваем полную поддержку новым автотранспортным компаниям.</p>
+                    </div>
+                    <div class="about_content-imgs">
+                        <img src="img/about us.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts" id="contacts">
+                <h2 class="header_logo">RSG SUPPORT</h2>
+                <ul class="footer_list">
+                    <li class="footer_link">+998-99-820-41-68</li>
+                    <li class="footer_link">Email: rsggroupfzco@gmail.com</li>
+                    <li class="footer_link">Telegram: @rkhamroev</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        document.querySelector('.burger').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.header_list').classList.toggle('open');
+        })
+    </script>
+
+</body>
+
+</html>
